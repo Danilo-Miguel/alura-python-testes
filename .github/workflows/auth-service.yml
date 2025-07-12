@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: burguer-app/auth-service
+        working-directory: .burguer-app
 
     steps:
     - name: 📦 Checkout do código
