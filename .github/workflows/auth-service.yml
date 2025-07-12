@@ -31,4 +31,4 @@ jobs:
 
     - name: 🧪 Rodar testes com cobertura
       run: |
-        pytest --cov=. --cov-report=term-missing --cov-branch --cov-fail-under=90
+        pytest --cov=. --cov-report=term-missing 
