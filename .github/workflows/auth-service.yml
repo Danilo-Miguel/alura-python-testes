@@ -2,10 +2,10 @@ name: Testes Auth Service
 
 on:
   push:
-    branches: [ "unit-test-preparation" ]
+    branches: [unit-test-preparation]
    
   pull_request:
-    branches: [ "unit-test-preparation" ]
+    branches: [unit-test-preparation]
    
 
 jobs:
