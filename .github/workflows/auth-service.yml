@@ -27,7 +27,7 @@ jobs:
 
               run: |
                pytest -v   
-               radon cc ./test
+               radon cc ./burguer-app/auth-service/models/user_model.py
 
             
               
