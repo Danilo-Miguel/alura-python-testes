@@ -27,6 +27,7 @@ jobs:
 
               run: |
                pytest -v   
+               radon cc ./test
 
             
               
